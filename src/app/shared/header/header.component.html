@@ -19,13 +19,7 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            @if (!isLogged) {
-              <li class="nav-item">
-                <a [routerLink]="['/login']" class="nav-link" href="#">Connexion</a>
-              </li>
-            } @else {
-                <button (click)="disconnect()">Déconnexion</button>
-            }
+
 
           </ul>
 
