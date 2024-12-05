@@ -18,6 +18,10 @@ export const routes: Routes = [
     component: PodcastsComponent
   },
   {
+    path: 'sandbox',
+    component: SandboxComponent
+  },
+  {
     path: '**',
     component: NotFoundComponent
   }
