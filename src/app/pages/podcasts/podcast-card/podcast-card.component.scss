@@ -1,0 +1,53 @@
+$padding: 12px;
+
+.card {
+  padding: $padding;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.play-button {
+  background-color: #698fb7;
+  border-radius: 100%;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  transition: all 100ms;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+}
+
+.play-button:active {
+  transform: scale(1.2);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  padding-left: $padding;
+}
+
+.detail-title {
+  font-weight: bold;
+}
+
+.detail-desc {
+  color: #333;
+}
+
+.duration {
+  margin-left: auto;
+}
+
+.progress-bar {
+  margin-top: 8px;
+}

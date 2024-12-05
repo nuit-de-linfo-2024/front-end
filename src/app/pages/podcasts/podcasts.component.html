@@ -1,0 +1,6 @@
+<div class="podcast-list">
+  <h1>Nos podcasts</h1>
+  @for (podcast of this.podcasts; track podcast.id) {
+    <app-podcast-card [podcast]="podcast"></app-podcast-card>
+  }
+</div>
