@@ -7,6 +7,7 @@ import { SandboxComponent } from "./sandbox/sandbox.component";
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent, SandboxComponent],
   templateUrl: './app.component.html',
+  standalone: true,
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
