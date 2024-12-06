@@ -1,0 +1,49 @@
+  <div class="container pt-5">
+    <div class="d-flex align-items-center justify-content-center flex-column g-5">
+      <h1>Choisir un Océan ou une Mer</h1>
+    
+      <!-- Champ de recherche avec datalist -->
+      <label for="ocean-choice">Choisir un océan ou une mer:</label>
+      <input 
+        list="oceans-and-seas"
+        placeholder="Réponse"
+        [(ngModel)]="selectedOcean" 
+      />
+      <button (click)="VerifOcean()">Valider</button>
+      
+      <!-- Datalist avec les suggestions filtrées -->
+       
+      <datalist id="oceans-and-seas">
+        @for (ocean of filteredOceans; track ocean){
+        <option [value]="ocean.nom">{{ocean.nom}}</option>
+      }
+  
+      </datalist>
+    
+      <!-- Affichage de l'océan ou mer choisi -->
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Nom</th>
+              <th>Type</th>
+              <th>Profondeur max</th>
+              <th>Étendue (km²)</th>
+              <th>Continent(s)</th>
+            </tr>
+          </thead>
+          <tbody>
+             @for (ocean of selectedOceans; track ocean){
+              <tr>
+               
+                <td>{{ ocean.nom }}</td>
+                <td>{{ ocean.type }}</td>
+                <td>{{ ocean.profondeur_max }}</td>
+                <td>{{ ocean.etendue }}</td>
+                <td>{{ ocean.continents }}</td>
+              
+              </tr>
+             }
+          </tbody>
+        </table>    
+    </div>
+  </div>
