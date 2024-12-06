@@ -1,4 +1,11 @@
-<div class="scroll_container" [ngStyle]="{'height': screenHeightCSS, 'width': screenWidthCSS}">
-  <img id="img_scroll" src="corps.jpg" alt="" #img_scroll [ngStyle]="{'transform': scaleCSS}"/>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      <app-body-zoom [zoom_state]="StateList" [zoom_index]="index"></app-body-zoom>
+    </div>
+  </div>
 </div>
 
