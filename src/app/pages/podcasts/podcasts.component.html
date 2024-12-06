@@ -1,5 +1,5 @@
-<div class="podcast-list">
-  <h1>Nos podcasts</h1>
+<div class="podcast-list pt-5">
+  <h1 class="text-center text-white">Nos podcasts</h1>
   @for (podcast of this.podcasts; track podcast.id) {
     <app-podcast-card [podcast]="podcast"></app-podcast-card>
   }

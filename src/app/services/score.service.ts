@@ -44,4 +44,8 @@ export class ScoreService {
         const newTotalScore = this.getTotalScoreFromStorage();
         this.totalScoreSubject.next(newTotalScore);
     }
+
+    clearScores(): void {
+        localStorage.removeItem(this.localStorageKey);
+    }
 }
