@@ -3,14 +3,17 @@
     <h1>Bienvenue sur Waterdle</h1>
 
     <!-- Champ de recherche avec datalist -->
-    <label for="ocean-choice">Choisir un océan ou une mer:</label>
-    <input
+    <h5>Choisir un océan, une mer, un lac ou rivière :</h5>
+  
+    <div class="input-group mb-3 justify-content-center">
+      <input
       list="oceans-and-seas"
       placeholder="Réponse"
       [(ngModel)]="selectedOcean"
     />
-    <button (click)="VerifOcean()">Valider</button>
-
+      <button class="btn btn-secondary" type="button" id="button-addon2"(click)="VerifOcean()">Valider</button>
+    </div>
+    
 
     <datalist id="oceans-and-seas">
       @for (ocean of filteredOceans; track ocean) {
@@ -55,7 +58,9 @@
               <td class="bg-success">{{ ocean.etendue }}</td>
             }
             <td [ngClass]="getBackgroundClass(ocean.continents, this.randomOceanOrSea!.continents)">
-              {{ ocean.continents }}
+              @for (cont of ocean.continents; track cont){
+              {{ cont }}
+              }
             </td>
           </tr>
         }
