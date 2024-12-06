@@ -1,108 +1,107 @@
 [
-       {
-        "nom": "Océan Atlantique",
-        "type": "Océan",
-        "profondeur_max": "8,486 m",
-        "etendue": "106,460,000 km²",
-        "continents": ["Amérique", "Europe", "Afrique"]
-      },
-      {
-        "nom": "Océan Pacifique",
-        "type": "Océan",
-        "profondeur_max": "10,994 m",
-        "etendue": "168,723,000 km²",
-        "continents": ["Amérique", "Asie", "Australie", "Océanie"]
-      },
-      {
-        "nom": "Océan Indien",
-        "type": "Océan",
-        "profondeur_max": "7,258 m",
-        "etendue": "73,556,000 km²",
-        "continents": ["Afrique", "Asie", "Océanie"]
-      },
-      {
-        "nom": "Océan Arctique",
-        "type": "Océan",
-        "profondeur_max": "5,450 m",
-        "etendue": "15,558,000 km²",
-        "continents": ["Amérique", "Europe", "Asie"]
-      },
-      {
-        "nom": "Océan Antarctique",
-        "type": "Océan",
-        "profondeur_max": "7,235 m",
-        "etendue": "21,960,000 km²",
-        "continents": ["Antarctique"]
-      },
-      {
-        "nom": "Mer Méditerranée",
-        "type": "Mer",
-        "profondeur_max": "5,267 m",
-        "etendue": "2,510,000 km²",
-        "continents": ["Europe", "Afrique", "Asie"]
-      },
-      {
-        "nom": "Mer des Caraïbes",
-        "type": "Mer",
-        "profondeur_max": "7,686 m",
-        "etendue": "2,754,000 km²",
-        "continents": ["Amérique du Nord", "Amérique Centrale", "Amérique du Sud"]
-      },
-      {
-        "nom": "Mer de Chine méridionale",
-        "type": "Mer",
-        "profondeur_max": "5,016 m",
-        "etendue": "3,500,000 km²",
-        "continents": ["Asie"]
-      },
-      {
-        "nom": "Mer Noire",
-        "type": "Mer",
-        "profondeur_max": "2,212 m",
-        "etendue": "436,000 km²",
-        "continents": ["Europe", "Asie"]
-      },
-      {
-        "nom": "Mer du Nord",
-        "type": "Mer",
-        "profondeur_max": "700 m",
-        "etendue": "575,000 km²",
-        "continents": ["Europe"]
-      },
-      {
-        "nom": "Mer de Béring",
-        "type": "Mer",
-        "profondeur_max": "1,400 m",
-        "etendue": "2,000,000 km²",
-        "continents": ["Amérique du Nord", "Asie"]
-      },
-      {
-        "nom": "Mer de Tasman",
-        "type": "Mer",
-        "profondeur_max": "5,007 m",
-        "etendue": "2,300,000 km²",
-        "continents": ["Australie", "Océanie"]
-      },
-      {
-        "nom": "Mer d'Arabie",
-        "type": "Mer",
-        "profondeur_max": "4,652 m",
-        "etendue": "3,862,000 km²",
-        "continents": ["Asie", "Afrique"]
-      },
-      {
-        "nom": "Mer de Weddell",
-        "type": "Mer",
-        "profondeur_max": "7,000 m",
-        "etendue": "2,800,000 km²",
-        "continents": ["Antarctique"]
-      },
-      {
-        "nom": "Mer d'Okhotsk",
-        "type": "Mer",
-        "profondeur_max": "3,372 m",
-        "etendue": "1,600,000 km²",
-        "continents": ["Asie"]
-      }
-    ]
-  
+  {
+    "nom": "Océan Atlantique",
+    "type": "Océan",
+    "profondeur_max": 8486.0,
+    "etendue": 106460000.0,
+    "continents": ["Amérique", "Europe", "Afrique"]
+  },
+  {
+    "nom": "Océan Pacifique",
+    "type": "Océan",
+    "profondeur_max": 10994.0,
+    "etendue": 168723000.0,
+    "continents": ["Amérique", "Asie", "Australie", "Océanie"]
+  },
+  {
+    "nom": "Océan Indien",
+    "type": "Océan",
+    "profondeur_max": 7258.0,
+    "etendue": 73556000.0,
+    "continents": ["Afrique", "Asie", "Océanie"]
+  },
+  {
+    "nom": "Océan Arctique",
+    "type": "Océan",
+    "profondeur_max": 5450.0,
+    "etendue": 15558000.0,
+    "continents": ["Amérique", "Europe", "Asie"]
+  },
+  {
+    "nom": "Océan Antarctique",
+    "type": "Océan",
+    "profondeur_max": 7235.0,
+    "etendue": 21960000.0,
+    "continents": ["Antarctique"]
+  },
+  {
+    "nom": "Mer Méditerranée",
+    "type": "Mer",
+    "profondeur_max": 5267.0,
+    "etendue": 2510000.0,
+    "continents": ["Europe", "Afrique", "Asie"]
+  },
+  {
+    "nom": "Mer des Caraïbes",
+    "type": "Mer",
+    "profondeur_max": 7686.0,
+    "etendue": 2754000.0,
+    "continents": ["Amérique du Nord", "Amérique Centrale", "Amérique du Sud"]
+  },
+  {
+    "nom": "Mer de Chine méridionale",
+    "type": "Mer",
+    "profondeur_max": 5016.0,
+    "etendue": 3500000.0,
+    "continents": ["Asie"]
+  },
+  {
+    "nom": "Mer Noire",
+    "type": "Mer",
+    "profondeur_max": 2212.0,
+    "etendue": 436000.0,
+    "continents": ["Europe", "Asie"]
+  },
+  {
+    "nom": "Mer du Nord",
+    "type": "Mer",
+    "profondeur_max": 700.0,
+    "etendue": 575000.0,
+    "continents": ["Europe"]
+  },
+  {
+    "nom": "Mer de Béring",
+    "type": "Mer",
+    "profondeur_max": 1400.0,
+    "etendue": 2000000.0,
+    "continents": ["Amérique du Nord", "Asie"]
+  },
+  {
+    "nom": "Mer de Tasman",
+    "type": "Mer",
+    "profondeur_max": 5007.0,
+    "etendue": 2300000.0,
+    "continents": ["Australie", "Océanie"]
+  },
+  {
+    "nom": "Mer d'Arabie",
+    "type": "Mer",
+    "profondeur_max": 4652.0,
+    "etendue": 3862000.0,
+    "continents": ["Asie", "Afrique"]
+  },
+  {
+    "nom": "Mer de Weddell",
+    "type": "Mer",
+    "profondeur_max": 7000.0,
+    "etendue": 2800000.0,
+    "continents": ["Antarctique"]
+  },
+  {
+    "nom": "Mer d'Okhotsk",
+    "type": "Mer",
+    "profondeur_max": 3372.0,
+    "etendue": 1600000.0,
+    "continents": ["Asie"]
+  }
+]
