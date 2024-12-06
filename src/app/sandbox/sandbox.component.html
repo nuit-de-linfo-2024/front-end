@@ -4,7 +4,7 @@
         <option value="medium">Moyen</option>
         <option value="hard">Difficile</option>
     </select>  
-@for (mock of mockData; track mock.title){
+@for (mock of mockData; track mock){
     <div >
       <app-card-test [mockData]="mock" [selectedDifficulty]="selectedDifficulty"></app-card-test>
     </div>

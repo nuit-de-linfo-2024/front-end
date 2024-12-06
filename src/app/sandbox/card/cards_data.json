@@ -4,6 +4,7 @@
       "description": "L'océan est souvent appelé le poumon de la terre en raison de sa capacité à produire de l'oxygène.",
       "questions": [
          {
+            "id": 1,
             "title": "Quel organisme est responsable de la majorité de la production d'oxygène dans les océans ?",
             "options": [
                "Les algues géantes",
@@ -16,6 +17,7 @@
             "difficulty": "easy"
          },
          {
+            "id": 2,
             "title": "Combien de pourcent de l'oxygène que nous respirons provient de l'océan ?",
             "options": [
                "30%",
@@ -28,6 +30,7 @@
             "difficulty": "medium"
          },
          {
+            "id": 3,
             "title": "Quel type de phytoplancton produit le plus d'oxygène dans les océans ?",
             "options": [
                "Diatomées",
@@ -46,6 +49,7 @@
       "description": "blabla this is not a good one, thanks Louis :)",
       "questions": [
          {
+            "id": 4,
             "title": "Qu'est-ce que l'acidification des océans ?",
             "options": [
                "Une augmentation du pH de l'eau de mer",
@@ -58,6 +62,7 @@
             "difficulty": "easy"
          },
          {
+            "id": 5,
             "title": "Quel organisme est le plus touché par l'acidification des océans ?",
             "options": [
                "Les coraux",
@@ -70,6 +75,7 @@
             "difficulty": "medium"
          },
          {
+            "id": 6,
             "title": "Quel est l'évolution du pH de l'eau de mer depuis le début de l'ère industrielle ?",
             "options": [
                "Il a diminué de 0,5 unité de pH",
@@ -88,6 +94,7 @@
       "description": "Les abysses peuvent être comparées à un cœur écologique des océans. Tout comme le cœur pompe le sang et joue un rôle central dans la santé globale du corps humain, les abysses jouent un rôle central dans la régulation du climat et du carbone dans l'océan.",
       "questions": [
          {
+            "id": 7,
             "title": "Quel rôle jouent les abysses dans la régulation du CO2 ?",
             "options": [
                "Ils émettent du CO2 dans l'atmosphère",
@@ -100,6 +107,7 @@
             "difficulty": "easy"
          },
          {
+            "id": 8,
             "title": "Quelle est la profondeur moyenne des abysses ?",
             "options": [
                "1000 mètres",
@@ -112,6 +120,7 @@
             "difficulty": "medium"
          },
          {
+            "id": 9,
             "title": "Quel est l'impact des activités humaines sur les abysses ?",
             "options": [
                "L'impact est minime, car les abysses sont peu accessibles",
@@ -130,6 +139,7 @@
       "description": "Les zones humides (mangroves, marais salants, estuaires) jouent un rôle clé en filtrant les polluants, les sédiments et les nutriments excédentaires dans l'eau, en nettoyant l'eau avant qu'elle n'atteigne les océans ouverts.",
       "questions": [
          {
+            "id": 10,
             "title": "Quel est l'impact des marais salants sur la qualité de l'eau côtière ?",
             "options": [
                "Augmentation de la salinité",
@@ -142,6 +152,7 @@
             "difficulty": "easy"
          },
          {
+            "id": 11,
             "title": "Quel est le rôle des estuaires dans le cycle des nutriments ?",
             "options": [
                "Absorption des nutriments",
@@ -154,6 +165,7 @@
             "difficulty": "medium"
          },
          {
+            "id": 12,
             "title": "Quel est l'impact de la destruction des mangroves sur les écosystèmes côtiers ?",
             "options": [
                "Augmentation d ela biodiversité",
@@ -172,6 +184,7 @@
       "description": "Les courants océaniques transportent des nutriments et régulent la température, tout comme le système circulatoire dans le corps humain.",
       "questions": [
          {
+            "id": 13,
             "title": "Quel est le plus grand courant océanique du monde ?",
             "options": [
                "Courant de Humboldt",
@@ -184,18 +197,20 @@
             "difficulty": "easy"
          },
          {
+            "id": 14,
             "title": "Quel est l'impact des courants océaniques sur les précipitations en Europe de l'Ouest ?",
             "options": [
                "Augmentation des précipitations",
-"Diminution des précipitations",
-"Aucun impact",
-"Variabilité saisonnière accrue"
+               "Diminution des précipitations",
+               "Aucun impact",
+               "Variabilité saisonnière accrue"
             ],
             "answer": "Augmentation des précipitations",
             "explanation": "Les courants océaniques influencent les précipitations en Europe de l'Ouest en apportant de l'humidité et en régulant la température. Ils contribuent à l'augmentation des précipitations dans cette région.",
             "difficulty": "medium"
          },
          {
+            "id": 15,
             "title": "Quel est l'impact du réchauffement climatique sur les courants océaniques ?",
             "options": [
                "Ils s'accélèrent",
@@ -214,6 +229,7 @@
       "description": "Les zones de convergence, où les déchets s'accumulent, peuvent être comparées au système digestif humain qui traite les déchets.",
       "questions": [
          {
+            "id": 16,
             "title": "Quel type de déchet est le plus courant dans les zones de convergence océaniques ?",
             "options": [
                "Plastique",
@@ -226,6 +242,7 @@
             "difficulty": "easy"
          },
          {
+            "id": 17,
             "title": "Quel est le principal facteur contribuant à la formation des zones de convergence de déchets ?",
             "options": [
                "Les courants océaniques",
@@ -238,7 +255,8 @@
             "difficulty": "medium"
          },
          {
-            "title":"Quel est le processus de dégradation des plastiques dans l'océan ?",
+            "id": 18,
+            "title": "Quel est le processus de dégradation des plastiques dans l'océan ?",
             "options": [
                "Photodégradation",
                "Biodégradation",
