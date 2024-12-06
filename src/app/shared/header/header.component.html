@@ -17,6 +17,19 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
+              @if (totalScore > 15) {
+                <img width="32" height="32" src="medals/gold_medal.png"/>
+              }
+              @else if (totalScore > 10) {
+                <img width="32" height="32" src="medals/silver_medal.png"/>
+              }
+              @else if (totalScore > 5) {
+                <img width="32" height="32" src="medals/bronze_medal.png"/>
+              }
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">{{ totalScore }} {{ totalScore == 0 ? "point" : "points"}}</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
 
