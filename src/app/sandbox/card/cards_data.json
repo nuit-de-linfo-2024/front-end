@@ -43,21 +43,8 @@
    },
    {
       "title": "L'acidification, poison pour les muscles et les océans",
-
       "description": "blabla this is not a good one, thanks Louis :)",
       "questions": [
-         {
-            "title": "Quel gaz est responsable de l'acidification des océans ?",
-            "options": [
-               "Dioxyde de carbone",
-               "Méthane",
-               "Ozone",
-               "Protoxyde d'azote"
-            ],
-            "answer": "Dioxyde de carbone",
-            "explanation": "Le dioxyde de carbone est responsable de l'acidification des océans. En effet, une partie du CO2 émis par les activités humaines est absorbée par les océans et réagit avec l'eau pour former de l'acide carbonique.",
-            "difficulty": "easy"
-         },
          {
             "title": "Qu'est-ce que l'acidification des océans ?",
             "options": [
@@ -80,18 +67,6 @@
             ],
             "answer": "Les coraux",
             "explanation": "Les coraux sont les organismes les plus touchés par l'acidification des océans. En effet, l'acidification réduit la disponibilité en carbonate de calcium, nécessaire à la construction de leur squelette.",
-            "difficulty": "medium"
-         },
-         {
-            "title": "Quel pourcentage du CO2 émis par les activités humaines est absorbé par les océans ?",
-            "options": [
-               "10%",
-               "20%",
-               "30%",
-               "45%"
-            ],
-            "answer": "30%",
-            "explanation": "Environ 30% du CO2 émis par les activités humaines est absorbé par les océans. Cela a pour conséquence d'augmenter l'acidité de l'eau de mer, ce qui peut avoir des effets néfastes sur de nombreux organismes marins.",
             "difficulty": "medium"
          },
          {
@@ -209,18 +184,6 @@
             "difficulty": "easy"
          },
          {
-            "title": "Quel phénomène est associé aux courants océaniques et influence le climat mondial ?",
-            "options": [
-               "El Niño",
-               "La Niña",
-               "Les deux",
-               "Aucun des deux"
-            ],
-            "answer": "Les deux",
-            "explanation": "Les phénomènes El Niño et La Niña sont associés aux courants océaniques et ont un impact sur le climat mondial.",
-            "difficulty": "easy"
-         },
-         {
             "title": "Quel est l'impact des courants océaniques sur les précipitations en Europe de l'Ouest ?",
             "options": [
                "Augmentation des précipitations",
@@ -251,18 +214,6 @@
       "description": "Les zones de convergence, où les déchets s'accumulent, peuvent être comparées au système digestif humain qui traite les déchets.",
       "questions": [
          {
-            "title": "Quelle est la plus grande zone de convergence de déchets dans l'océan Pacifique ?",
-            "options": [
-               "Grande zone d'accumulation de déchets du Pacifique Nord",
-               "Grande zone d'accumulation de déchets du Pacifique Sud",
-               "Grande zone d'accumulation de déchets de l'Atlantique Nord",
-               "Grande zone d'accumulation de déchets de l'Atlantique Sud"
-            ],
-            "answer": "Grande zone d'accumulation de déchets du Pacifique Nord",
-            "explanation": "Cette zone, également connue sous le nom de \"Great Pacific Garbage Patch\", est la plus grande accumulation de déchets plastiques dans l'océan Pacifique.",
-            "difficulty": "easy"
-         },
-         {
             "title": "Quel type de déchet est le plus courant dans les zones de convergence océaniques ?",
             "options": [
                "Plastique",
@@ -275,18 +226,6 @@
             "difficulty": "easy"
          },
          {
-            "title": "Quel est l'impact des microplastiques sur la faune marine ?",
-            "options": [
-               "Réduction de la fertilité des organismes marins",
-               "Intégration dans les tissus des organismes marins et transmission à travers la chaîne alimentaire",
-               "Altération des comportements de reproduction",
-               "Diminution de la capacité de chasse et de prédation"
-            ],
-            "answer": "Intégration dans les tissus des organismes marins et transmission à travers la chaîne alimentaire",
-            "explanation": "Les microplastiques sont souvent ingérés par la faune marine, s'accumulant dans la chaîne alimentaire et affectant la santé des organismes marins.",
-            "difficulty": "medium"
-         },
-         {
             "title": "Quel est le principal facteur contribuant à la formation des zones de convergence de déchets ?",
             "options": [
                "Les courants océaniques",
@@ -297,18 +236,6 @@
             "answer": "Les courants océaniques",
             "explanation": "Les courants océaniques transportent et concentrent les déchets dans des zones spécifiques, formant ainsi des zones de convergence.",
             "difficulty": "medium"
-         },
-         {
-            "title": "Quelle est la superficie de la Grande zone d'accumulation de déchets du Pacifique Nord ?",
-            "options": [
-               "1 million de km²",
-               "3 millions de km²",
-               "5 millions de km²",
-               "7 millions de km²"
-            ],
-            "answer": "3 millions de km²",
-            "explanation": "La Grande zone d'accumulation de déchets du Pacifique Nord est estimée à environ 3 millions de km². Elle contient une grande quantité de déchets plastiques et constitue un danger pour la faune marine.",
-            "difficulty": "hard"
          },
          {
             "title":"Quel est le processus de dégradation des plastiques dans l'océan ?",
