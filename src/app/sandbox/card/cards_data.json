@@ -1,0 +1,327 @@
+[
+   {
+      "title": "L'océan le poumon de la terre",
+      "description": "L'océan est souvent appelé le poumon de la terre en raison de sa capacité à produire de l'oxygène.",
+      "questions": [
+         {
+            "title": "Quel organisme est responsable de la majorité de la production d'oxygène dans les océans ?",
+            "options": [
+               "Les algues géantes",
+               "Les coraux",
+               "Le phytoplancton",
+               "Les méduses"
+            ],
+            "answer": "Le phytoplancton",
+            "explanation": "Le phytoplancton est responsable de la majorité de la production d'oxygène dans les océans. Il est à la base de la chaine alimentaire marine et produit de l'oxygène grâce à la photosynthèse.",
+            "difficulty": "easy"
+         },
+         {
+            "title": "Combien de pourcent de l'oxygène que nous respirons provient de l'océan ?",
+            "options": [
+               "30%",
+               "50%",
+               "60%",
+               "70%"
+            ],
+            "answer": "70%",
+            "explanation": "Les océans produisent 70% de l'oxygène que nous respirons grâce à la photosynthèse des phytoplanctons.",
+            "difficulty": "medium"
+         },
+         {
+            "title": "Quel type de phytoplancton produit le plus d'oxygène dans les océans ?",
+            "options": [
+               "Diatomées",
+               "Cyanobactéries",
+               "Coccolithophores",
+               "Dinoflagellés"
+            ],
+            "answer": "Cyanobactéries",
+            "explanation": "Les cyanobactéries produisent 25 à 30% de l'oxygène de l'atmosphère. En particulier le genre Prochlorococcus qui est l'organisme photosynthétique le plus abondant sur la planéte et qui produit à lui seul 10 à 20% de l'oxygène global.",
+            "difficulty": "hard"
+         }
+      ]
+   },
+   {
+      "title": "L'acidification, poison pour les muscles et les océans",
+
+      "description": "blabla this is not a good one, thanks Louis :)",
+      "questions": [
+         {
+            "title": "Quel gaz est responsable de l'acidification des océans ?",
+            "options": [
+               "Dioxyde de carbone",
+               "Méthane",
+               "Ozone",
+               "Protoxyde d'azote"
+            ],
+            "answer": "Dioxyde de carbone",
+            "explanation": "Le dioxyde de carbone est responsable de l'acidification des océans. En effet, une partie du CO2 émis par les activités humaines est absorbée par les océans et réagit avec l'eau pour former de l'acide carbonique.",
+            "difficulty": "easy"
+         },
+         {
+            "title": "Qu'est-ce que l'acidification des océans ?",
+            "options": [
+               "Une augmentation du pH de l'eau de mer",
+               "Une diminution du pH de l'eau de mer",
+               "Une augmentation de la salinité de l'eau de mer",
+               "Une diminution de la salinité de l'eau de mer"
+            ],
+            "answer": "Une diminution du pH de l'eau de mer",
+            "explanation": "L'acidification des océans est une diminution du pH de l'eau de mer due à l'absorption de CO2 par les océans.",
+            "difficulty": "easy"
+         },
+         {
+            "title": "Quel organisme est le plus touché par l'acidification des océans ?",
+            "options": [
+               "Les coraux",
+               "Les méduses",
+               "Les algues",
+               "Les éponges"
+            ],
+            "answer": "Les coraux",
+            "explanation": "Les coraux sont les organismes les plus touchés par l'acidification des océans. En effet, l'acidification réduit la disponibilité en carbonate de calcium, nécessaire à la construction de leur squelette.",
+            "difficulty": "medium"
+         },
+         {
+            "title": "Quel pourcentage du CO2 émis par les activités humaines est absorbé par les océans ?",
+            "options": [
+               "10%",
+               "20%",
+               "30%",
+               "45%"
+            ],
+            "answer": "30%",
+            "explanation": "Environ 30% du CO2 émis par les activités humaines est absorbé par les océans. Cela a pour conséquence d'augmenter l'acidité de l'eau de mer, ce qui peut avoir des effets néfastes sur de nombreux organismes marins.",
+            "difficulty": "medium"
+         },
+         {
+            "title": "Quel est l'évolution du pH de l'eau de mer depuis le début de l'ère industrielle ?",
+            "options": [
+               "Il a diminué de 0,5 unité de pH",
+               "Il a diminué de 0,1 unité de pH",
+               "Il est resté stable",
+               "Il a augmenté de 0,1 unité de pH"
+            ],
+            "answer": "Il a diminué de 0,1 unité de pH",
+            "explanation": "Le pH de l'eau de mer a diminué de 0,1 unité de pH depuis le début de l'ère industrielle en raison de l'absorption de CO2 par les océans.",
+            "difficulty": "hard"
+         }
+      ]
+   },
+   {
+      "title": "Les abysses, notre cœur écologique",
+      "description": "Les abysses peuvent être comparées à un cœur écologique des océans. Tout comme le cœur pompe le sang et joue un rôle central dans la santé globale du corps humain, les abysses jouent un rôle central dans la régulation du climat et du carbone dans l'océan.",
+      "questions": [
+         {
+            "title": "Quel rôle jouent les abysses dans la régulation du CO2 ?",
+            "options": [
+               "Ils émettent du CO2 dans l'atmosphère",
+               "Ils stockent du CO2 dans les fonds marins pendant des siècles",
+               "Ils filtrent le CO2 de l'air et le transforment en oxygène",
+               "Ils ne jouent aucun rôle dans la régulation du CO2"
+            ],
+            "answer": "Ils stockent du CO2 dans les fonds marins pendant des siècles",
+            "explanation": "Les abysses jouent un rôle essentiel dans la régulation du CO2 en stockant une grande quantité de carbone dans les fonds marins pendant des siècles.",
+            "difficulty": "easy"
+         },
+         {
+            "title": "Quelle est la profondeur moyenne des abysses ?",
+            "options": [
+               "1000 mètres",
+               "2000 mètres",
+               "3000 mètres",
+               "4000 mètres"
+            ],
+            "answer": "4000 mètres",
+            "explanation": "Les abysses sont les zones les plus profondes de l'océan, situées entre 3000 et 6000 mètres de profondeur. La profondeur moyenne des abysses est d'environ 4000 mètres et peut atteindre jusqu'à 11 000 mètres dans la fosse des Mariannes.",
+            "difficulty": "medium"
+         },
+         {
+            "title": "Quel est l'impact des activités humaines sur les abysses ?",
+            "options": [
+               "L'impact est minime, car les abysses sont peu accessibles",
+               "L'activité humaine n'affecte que la surface des océans, sans toucher les abysses",
+               "Les abysses sont affectées par la pollution des océans, les débris plastiques et les changements climatiques",
+               "L'impact humain est bénéfique, car il permet d'explorer et d'exploiter les ressources abyssales"
+            ],
+            "answer": "Les abysses sont affectées par la pollution des océans, les débris plastiques et les changements climatiques",
+            "explanation": "Les abysses sont affectées par la pollution des océans, les débris plastiques et les changements climatiques. Les activités humaines ont un impact sur ces zones profondes de l'océan, même si elles sont peu accessibles.",
+            "difficulty": "hard"
+         }
+      ]
+   },
+   {
+      "title": "Le Foie de notre planète : Zones Humides, Estuaires et Mangroves, les Détoxifiants des Océans",
+      "description": "Les zones humides (mangroves, marais salants, estuaires) jouent un rôle clé en filtrant les polluants, les sédiments et les nutriments excédentaires dans l'eau, en nettoyant l'eau avant qu'elle n'atteigne les océans ouverts.",
+      "questions": [
+         {
+            "title": "Quel est l'impact des marais salants sur la qualité de l'eau côtière ?",
+            "options": [
+               "Augmentation de la salinité",
+               "Réduction des nutriments excédentaires",
+               "Amélioration de la clarté de l'eau",
+               "Les deux derniers"
+            ],
+            "answer": "Les deux derniers",
+            "explanation": "Les marais salants filtrent les nutriments excédentaires et les sédiments, améliorant ainsi la clarté de l'eau côtière.",
+            "difficulty": "easy"
+         },
+         {
+            "title": "Quel est le rôle des estuaires dans le cycle des nutriments ?",
+            "options": [
+               "Absorption des nutriments",
+               "Libération des nutriments dans l'océan",
+               "Transformation des nutriments en formes biodisponibles",
+               "Les trois"
+            ],
+            "answer": "Les trois",
+            "explanation": "Les estuaires jouent un rôle crucial dans le cycle des nutriments en absorbant, transformant et libérant des nutriments dans l'océan.",
+            "difficulty": "medium"
+         },
+         {
+            "title": "Quel est l'impact de la destruction des mangroves sur les écosystèmes côtiers ?",
+            "options": [
+               "Augmentation d ela biodiversité",
+               "Erosion accrue des côtes",
+               "Diminution de la productivité des pêcheries",
+               "Réduction des inondations côtières"
+            ],
+            "answer": "Erosion accrue des côtes",
+            "explanation": "La destruction des mangroves réduit la protection naturelle contre l'érosion, augmentant ainsi la vulnérabilité des côtes aux tempêtes et aux inondations.",
+            "difficulty": "hard"
+         }
+      ]
+   },
+   {
+      "title": "Les Veines de l'Océan : Les Courants Marins",
+      "description": "Les courants océaniques transportent des nutriments et régulent la température, tout comme le système circulatoire dans le corps humain.",
+      "questions": [
+         {
+            "title": "Quel est le plus grand courant océanique du monde ?",
+            "options": [
+               "Courant de Humboldt",
+               "Courant du Golfe",
+               "Courant de Kuroshio",
+               "Courant de Benguela"
+            ],
+            "answer": "Courant du Golfe",
+            "explanation": "Le Courant du Golfe est le plus grand courant océanique du monde. Il transporte de l'eau chaude des tropiques vers les régions polaires, influençant le climat des régions côtières.",
+            "difficulty": "easy"
+         },
+         {
+            "title": "Quel phénomène est associé aux courants océaniques et influence le climat mondial ?",
+            "options": [
+               "El Niño",
+               "La Niña",
+               "Les deux",
+               "Aucun des deux"
+            ],
+            "answer": "Les deux",
+            "explanation": "Les phénomènes El Niño et La Niña sont associés aux courants océaniques et ont un impact sur le climat mondial.",
+            "difficulty": "easy"
+         },
+         {
+            "title": "Quel est l'impact des courants océaniques sur les précipitations en Europe de l'Ouest ?",
+            "options": [
+               "Augmentation des précipitations",
+"Diminution des précipitations",
+"Aucun impact",
+"Variabilité saisonnière accrue"
+            ],
+            "answer": "Augmentation des précipitations",
+            "explanation": "Les courants océaniques influencent les précipitations en Europe de l'Ouest en apportant de l'humidité et en régulant la température. Ils contribuent à l'augmentation des précipitations dans cette région.",
+            "difficulty": "medium"
+         },
+         {
+            "title": "Quel est l'impact du réchauffement climatique sur les courants océaniques ?",
+            "options": [
+               "Ils s'accélèrent",
+               "Ils ralentissent",
+               "Ils changent de direction",
+               "Ils disparaissent"
+            ],
+            "answer": "Ils ralentissent",
+            "explanation": "Le réchauffement climatique peut ralentir les courants océaniques en modifiant les gradients de température et de salinité, ce qui affecte la circulation thermohaline.",
+            "difficulty": "hard"
+         }
+      ]
+   },
+   {
+      "title": "Les Estomacs de l'Océan",
+      "description": "Les zones de convergence, où les déchets s'accumulent, peuvent être comparées au système digestif humain qui traite les déchets.",
+      "questions": [
+         {
+            "title": "Quelle est la plus grande zone de convergence de déchets dans l'océan Pacifique ?",
+            "options": [
+               "Grande zone d'accumulation de déchets du Pacifique Nord",
+               "Grande zone d'accumulation de déchets du Pacifique Sud",
+               "Grande zone d'accumulation de déchets de l'Atlantique Nord",
+               "Grande zone d'accumulation de déchets de l'Atlantique Sud"
+            ],
+            "answer": "Grande zone d'accumulation de déchets du Pacifique Nord",
+            "explanation": "Cette zone, également connue sous le nom de \"Great Pacific Garbage Patch\", est la plus grande accumulation de déchets plastiques dans l'océan Pacifique.",
+            "difficulty": "easy"
+         },
+         {
+            "title": "Quel type de déchet est le plus courant dans les zones de convergence océaniques ?",
+            "options": [
+               "Plastique",
+               "Métaux",
+               "Verre",
+               "Bois"
+            ],
+            "answer": "Plastique",
+            "explanation": "Les plastiques sont les déchets les plus courants dans les zones de convergence océaniques en raison de leur durabilité et de leur flottabilité.",
+            "difficulty": "easy"
+         },
+         {
+            "title": "Quel est l'impact des microplastiques sur la faune marine ?",
+            "options": [
+               "Réduction de la fertilité des organismes marins",
+               "Intégration dans les tissus des organismes marins et transmission à travers la chaîne alimentaire",
+               "Altération des comportements de reproduction",
+               "Diminution de la capacité de chasse et de prédation"
+            ],
+            "answer": "Intégration dans les tissus des organismes marins et transmission à travers la chaîne alimentaire",
+            "explanation": "Les microplastiques sont souvent ingérés par la faune marine, s'accumulant dans la chaîne alimentaire et affectant la santé des organismes marins.",
+            "difficulty": "medium"
+         },
+         {
+            "title": "Quel est le principal facteur contribuant à la formation des zones de convergence de déchets ?",
+            "options": [
+               "Les courants océaniques",
+               "Les marées",
+               "Les vents",
+               "Les activités humaines"
+            ],
+            "answer": "Les courants océaniques",
+            "explanation": "Les courants océaniques transportent et concentrent les déchets dans des zones spécifiques, formant ainsi des zones de convergence.",
+            "difficulty": "medium"
+         },
+         {
+            "title": "Quelle est la superficie de la Grande zone d'accumulation de déchets du Pacifique Nord ?",
+            "options": [
+               "1 million de km²",
+               "3 millions de km²",
+               "5 millions de km²",
+               "7 millions de km²"
+            ],
+            "answer": "3 millions de km²",
+            "explanation": "La Grande zone d'accumulation de déchets du Pacifique Nord est estimée à environ 3 millions de km². Elle contient une grande quantité de déchets plastiques et constitue un danger pour la faune marine.",
+            "difficulty": "hard"
+         },
+         {
+            "title":"Quel est le processus de dégradation des plastiques dans l'océan ?",
+            "options": [
+               "Photodégradation",
+               "Biodégradation",
+               "Oxydation",
+               "Hydrolyse"
+            ],
+            "answer": "Photodégradation",
+            "explanation": "La photodégradation est le processus par lequel les plastiques se décomposent sous l'action de la lumière du soleil, se fragmentant en microplastiques.",
+            "difficulty": "hard"
+         }
+      ]
+   }
+]

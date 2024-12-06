@@ -1,5 +1,12 @@
+<label for="difficulty">Choisir la difficulté: </label>
+    <select id="difficulty" [(ngModel)]="selectedDifficulty" (change)="onDifficultyChange(selectedDifficulty)">
+        <option value="easy">Facile</option>
+        <option value="medium">Moyen</option>
+        <option value="hard">Difficile</option>
+    </select>  
+    <p>{{selectedDifficulty}}</p>
 @for (mock of mockData; track mock.title){
     <div >
-      <app-card-test [mockData]="mock"></app-card-test>
+      <app-card-test [mockData]="mock" [selectedDifficulty]="selectedDifficulty"></app-card-test>
     </div>
   }
