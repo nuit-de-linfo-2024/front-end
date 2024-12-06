@@ -8,7 +8,7 @@
         @if(question.difficulty === selectedDifficulty){
           <p class="fs-4 fw-bold">{{question.title}}</p>
           @for(option of question.options; track option){
-            <button class="button-front mt-4 mx-3" (click)="changeFlipState()">{{ option }}</button>
+            <button class="button-front mt-4 mx-3" (click)="checkAnswer(question, option)">{{ option }}</button>
           }
         }    
       }

@@ -6,6 +6,7 @@ export interface CardDto{
 }
 
 export interface Question{
+    id: number;
     title: string;
     options: string[];
     answer: string;
