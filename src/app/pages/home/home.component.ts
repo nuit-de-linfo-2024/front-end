@@ -1,5 +1,5 @@
 import {Component, ElementRef, ViewChild} from '@angular/core';
-import { CaptchaComponent } from "./captcha/captcha.component";
+import { CaptchaComponent } from "../captcha/captcha.component";
 
 @Component({
   selector: 'app-home',
