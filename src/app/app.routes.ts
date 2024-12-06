@@ -5,6 +5,7 @@ import {PodcastsComponent} from './pages/podcasts/podcasts.component';
 import {SandboxComponent} from './sandbox/sandbox.component';
 import {CaptchaComponent} from './pages/captcha/captcha.component';
 import {capchatGuard} from './guards/capchat.guard';
+import {BrainfuckComponent} from './brainfuck/brainfuck.component';
 
 export const routes: Routes = [
   {
@@ -24,6 +25,10 @@ export const routes: Routes = [
   {
     path: 'sandbox',
     component: SandboxComponent
+  },
+  {
+    path: 'ergonomique',
+    component: BrainfuckComponent
   },
   {
     path: 'capchat',

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {FormsModule} from '@angular/forms';
-import {NgForOf, NgIf} from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { NgForOf, NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-brainfuck',
@@ -39,11 +39,11 @@ export class BrainfuckComponent {
 
   onButtonClick(value: string, index: number): void {
     if (this.userCode.length < this.targetCode.length) {
-      this.userCode.push(value); 
+      this.userCode.push(value);
 
       if (this.userCode.join('') === this.targetCode.join('')) {
         this.success = true;
-      } else {
+      } else if (this.userCode.length === this.targetCode.length) {
         this.success = false;
       }
 
