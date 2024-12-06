@@ -2,15 +2,15 @@
   "podcasts": [
     {
       "id": 1,
-      "title": "Podcast avec Florian",
-      "description": "Description à faire",
+      "title": "Podcast avec Florian - Les courant océaniques",
+      "description": "Florian analyse les courants océaniques, leur rôle dans la régulation climatique, et les impacts du réchauffement climatique sur des phénomènes tels que l'AMOC, tout en appelant à des actions pour préserver les océans face aux pressions anthropiques.",
       "duration": 1401,
       "audioFile": "podcast_florian.mp3"
     },
     {
       "id": 2,
-      "title": "Podcast avec Frédéric",
-      "description": "Description aussi à faire",
+      "title": "Podcast avec Frédéric - Le plancton",
+      "description": "Frédéric explore le rôle crucial du plancton dans la séquestration du carbone via la pompe biologique marine, soulignant les menaces climatiques et humaines sur les océans et proposant des solutions pour protéger ces écosystèmes vitaux.",
       "duration": 1818,
       "audioFile": "podcast_frederic.mp3"
     }
