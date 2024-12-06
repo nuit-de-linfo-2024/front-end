@@ -1,7 +1,7 @@
 .flip-card {
     background-color: transparent;
     width: 50%;
-    height: 200px;
+    height: 500px;
     padding: 1% 0% 1cap 0%;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
@@ -49,12 +49,13 @@
     background-color: lightseagreen; /* Green */
     border: none;
     color: white;
-    padding: 12px 28px;
+    padding: 1% 4%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 125%;
     font-weight: bold;
+    
     
   }
 
@@ -63,10 +64,10 @@
     background-color: lightseagreen; /* Green */
     border: none;
     color: white;
-    padding: 12px 28px;
+    padding: 1% 4%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 125%;
     font-weight: bold;
   }
