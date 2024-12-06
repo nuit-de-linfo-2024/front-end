@@ -26,6 +26,11 @@ export class BodyZoomComponent implements OnChanges {
   screenHeightCSS: string = "0px";
   screenWidthCSS: string = "0px";
 
+  svgHeightCSS: string = "0px";
+  svgWidthCSS: string = "0px";
+  svgXpos: string = "0px";
+  svgYpos: string = "0px";
+
   constructor() {
     this.onResize();
     this.updateFromState()
@@ -98,6 +103,12 @@ export class BodyZoomComponent implements OnChanges {
 
     this.screenHeightCSS = this.screen_height + "px";
     this.screenWidthCSS = this.screen_width + "px";
+
+    this.svgHeightCSS = this.screen_height*0.6 + "px";
+    this.svgWidthCSS = this.screen_height*0.6 + "px";
+    this.svgXpos = (this.screen_width - this.screen_height*0.6)/2 + "px";
+    this.svgYpos = (this.screen_height - this.screen_height*0.6)/2 + "px";
+
     this.updateFromState();
     console.log(this.screenWidthCSS + " -- " + this.screenHeightCSS)
   }

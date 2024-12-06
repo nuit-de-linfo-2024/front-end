@@ -9,3 +9,8 @@
   overflow: hidden;
   transition: all 0.5s;
 }
+
+svg {
+  position: absolute;
+  z-index: 2;
+}

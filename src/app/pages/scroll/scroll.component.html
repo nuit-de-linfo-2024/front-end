@@ -1,7 +1,37 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm">
-      One of three columns
+        <label class="mx-5 my-4 fs-2 fw-bold  text-white" for="difficulty">Choisir la difficulté: </label>
+        <select class="mx-2 bg-light rounded border-0 px-4 fs-3" id="difficulty" [(ngModel)]="selectedDifficulty"
+                (change)="onDifficultyChange(selectedDifficulty)">
+            <option value="easy">Facile</option>
+            <option value="medium">Moyen</option>
+            <option value="hard">Difficile</option>
+        </select>
+
+        <div>
+            @if (begin) {
+                <h1> Bienvenu </h1>
+                <p>Bienvenue sur notre site !</p>
+
+                <p>
+                    Tout comme le corps humain, l'océan est un élément essentiel qui maintient la vie sur Terre. Il est à la fois le cœur battant et les poumons de notre planète. L'océan régule le climat, purifie l'air que nous respirons et fournit une immense richesse de biodiversité, tout comme notre corps dépend de l'équilibre entre ses organes et de leur interconnexion pour fonctionner harmonieusement.
+                </p>
+                <p>
+                    L'océan, tel un système circulatoire, transporte les nutriments et régule les températures, assurant ainsi la survie de milliers d'espèces, tout comme notre corps a besoin d'un système sanguin pour nourrir ses cellules. L'eau, la véritable sève de notre planète, nous rappelle chaque jour que l'équilibre de notre écosystème global dépend de la santé de cet immense réservoir de vie.
+                </p>
+                <p>
+                    À travers notre site, nous vous invitons à explorer et à comprendre l'importance capitale de l'océan pour le bien-être de notre Terre. Tout comme notre corps peut souffrir lorsque certains organes sont négligés, l'océan, s'il est maltraité, souffre et met en péril l'équilibre de notre planète. Ensemble, prenons soin de cet "organe vital" et protégeons la vie qu'il soutient.
+                </p>
+                <p>
+                    L'océan est un trésor à préserver, car comme notre corps, la Terre ne peut survivre sans lui.</p>
+            } @else {
+                <div class="">
+                <app-card-test [mockData]="current_mock" [selectedDifficulty]="selectedDifficulty"></app-card-test>
+                </div>
+            }
+        </div>
+
     </div>
     <div class="col-sm">
       <app-body-zoom [zoom_state]="StateList" [zoom_index]="index"></app-body-zoom>
