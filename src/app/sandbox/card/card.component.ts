@@ -16,7 +16,7 @@ export class CardComponent{
   @Input() mockData: CardDto | undefined;
   @Input() selectedDifficulty: string |undefined;
 
-  score: { [key: string]: number } = { 
+  score: { [key: string]: number } = {
     easy: 1,
     medium: 2,
     hard: 3
@@ -29,11 +29,11 @@ export class CardComponent{
   ngOnInit(): void {
     this.scoreService.totalScore$.subscribe(score => {
       if(score > 15){
-        this.toaster.success('Tu as débloqué la médaille d\'or <img width="32" height="32" src="medals/gold_medal.png"/>', '', { enableHtml: true});
+        this.toaster.success('Tu as débloqué la médaille d\'or <img width="32" height="32" src="gold_medal.png"/>', '', { enableHtml: true});
       } else if(score > 10){
-        this.toaster.success('Tu as débloqué la médaille d\'argent <img width="32" height="32" src="medals/silver_medal.png"/>', '', { enableHtml: true});
+        this.toaster.success('Tu as débloqué la médaille d\'argent <img width="32" height="32" src="silver_medal.png"/>', '', { enableHtml: true});
       } else if (score > 5){
-        this.toaster.success('Tu as débloqué la médaille de bronze <img width="32" height="32" src="medals/bronze_medal.png"/>', '', { enableHtml: true});
+        this.toaster.success('Tu as débloqué la médaille de bronze <img width="32" height="32" src="bronze_medal.png"/>', '', { enableHtml: true});
       }
     });
   }
@@ -53,9 +53,9 @@ export class CardComponent{
   changeFlipState(){
     this.isFlipped = !this.isFlipped;
   }
-  
-  
-  
-  
-  
+
+
+
+
+
 }
