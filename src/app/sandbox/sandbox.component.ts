@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {CardDto} from '../models/card.dto';
 import { CardComponent } from './card/card.component';
 import cardData from './card/cards_data.json';
@@ -11,12 +11,15 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   styleUrl: './sandbox.component.scss'
 })
-export class SandboxComponent {
+export class SandboxComponent{
    selectedDifficulty: string='easy';
    mockData = cardData;
+
 
 
   onDifficultyChange(difficulty: string){
     this.selectedDifficulty = difficulty;
   }
+
+
 }

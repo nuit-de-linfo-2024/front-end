@@ -2,25 +2,28 @@
 <div class="flip-card" [class.flipped]="isFlipped">
   <div class="flip-card-inner mx-1">
     <div class="flip-card-front">
-      <p class="fw-bold fs-4">{{ mockData?.title }}</p> 
-      <p> {{ mockData?.description}}</p>
+      <p class="fw-bold fs-3">{{ mockData?.title }}</p> 
+      <p class="fs-5"> {{ mockData?.description}}</p>
       @for(question of mockData?.questions; track question){
         @if(question.difficulty === selectedDifficulty){
-          <p>{{question.title}}</p>
+          <p class="fs-4">{{question.title}}</p>
           @for(option of question.options; track option){
-            <button class="button-front mt-5 mx-4" (click)="changeFlipState()">{{ option }}</button>
+            <button class="button-front mt-4 mx-3" (click)="changeFlipState()">{{ option }}</button>
           }
-          <div class="flip-card-back fw-bold fs-4">
-            @for(question of mockData!.questions; track question.title){
-              <p>{{ question.answer }}</p>
-            }
-            <button class="button-back mt-5"(click)="changeFlipState()">Flip again</button>
-          </div>
-        }
-  
-    
+        }    
       }
+    </div>
+    <div class="flip-card-back fw-bold fs-4">
+      @for(question of mockData?.questions; track question){
+        @if(question.difficulty === selectedDifficulty){
+          <p class="fs-1">La réponse était : {{ question.answer }}</p>
+          <p>{{question.explanation}}</p>
+          <button class="button-back mt-5"(click)="changeFlipState()">Revoir la question</button>
+        }
+        
+      }
+    </div>
       
   </div>
-
+</div>
 
