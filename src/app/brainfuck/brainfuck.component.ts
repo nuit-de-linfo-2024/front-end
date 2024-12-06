@@ -7,14 +7,12 @@ import { NgForOf, NgIf } from '@angular/common';
   imports: [
     FormsModule,
     NgForOf,
-    NgIf
   ],
   templateUrl: './brainfuck.component.html',
   standalone: true,
   styleUrl: './brainfuck.component.scss'
 })
 export class BrainfuckComponent {
-  targetCode: string[] = ['1', '2', '3', '4'];
   userCode: string[] = [];
   buttons: string[] = [];
   positions: { x: number; y: number }[] = [];
@@ -25,7 +23,7 @@ export class BrainfuckComponent {
   }
 
   resetButtons(): void {
-    this.buttons = ['1', '2', '3', '4'];
+    this.buttons = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@._-".split("");
     this.randomizePositions();
   }
 
@@ -38,16 +36,9 @@ export class BrainfuckComponent {
   }
 
   onButtonClick(value: string, index: number): void {
-    if (this.userCode.length < this.targetCode.length) {
       this.userCode.push(value);
-
-      if (this.userCode.join('') === this.targetCode.join('')) {
-        this.success = true;
-      } else if (this.userCode.length === this.targetCode.length) {
-        this.success = false;
-      }
 
       this.randomizePositions();
     }
-  }
+  
 }

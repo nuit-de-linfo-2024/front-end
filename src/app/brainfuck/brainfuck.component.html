@@ -1,5 +1,5 @@
 <div class="container pt-5">
-  <h1 class="text-white">Reconstituez le code :</h1>
+  <h1 class="text-white">Renseignez votre mail :</h1>
   <div class="code-display">
     <span *ngFor="let char of userCode" class="code-char">{{ char || '_' }}</span>
   </div>
@@ -15,7 +15,4 @@
       {{ btn }}
     </button>
   </div>
-
-  <p *ngIf="success" class="success-msg">Bravo, code correct !</p>
-  <p *ngIf="!success && userCode.length === targetCode.length" class="error-msg">Perdu, code incorrect !</p>
 </div>
