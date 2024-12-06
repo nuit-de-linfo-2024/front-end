@@ -20,9 +20,8 @@ export class CaptchaComponent  {
 
   oceansAndSeas: CaptchaDTO[] = [];
   filteredOceans: CaptchaDTO[] = [];
-  randomOceanOrSea: string = "";
+  randomOceanOrSea: CaptchaDTO | undefined;
   selectedOcean: string = '';
-  selectedOceanObject?: CaptchaDTO | undefined;
   selectedOceans: CaptchaDTO[] = [];
   constructor(private captchaService: CaptchaService, private toasterService: ToastrService, private router: Router) { }
 
@@ -38,8 +37,9 @@ export class CaptchaComponent  {
 
   getRandomOceanOrSea(): void {
     const randomIndex = Math.floor(Math.random() * this.oceansAndSeas.length);
-    this.randomOceanOrSea = this.oceansAndSeas[randomIndex].nom;
-    console.log(this.randomOceanOrSea)
+    this.randomOceanOrSea = this.oceansAndSeas[randomIndex];
+    console.log(this.randomOceanOrSea.nom)
+    console.log(this.randomOceanOrSea.type)
   }
 
     addOceanToList(): void {
@@ -55,15 +55,41 @@ export class CaptchaComponent  {
 
     VerifOcean(): void {
 
-      if (this.selectedOcean === this.randomOceanOrSea) {
-        // this.router.navigate(['home']).then(() => this.toasterService.success("tu as trouvé"));
+      this.addOceanToList()
+
+      if (this.selectedOcean === this.randomOceanOrSea?.nom) {
+        this.router.navigate(['home']).then(() => this.toasterService.success("tu as trouvé"));
         return
       }
-      else{
-        this.addOceanToList()
+  }
 
+  getBackgroundClass(arr1: string[], arr2: string[]): string {
+    if (this.areListsEqual(arr1, arr2)) {
+      return 'bg-success'; // Tous les éléments sont identiques
     }
 
-}
+    const correctElements = arr1.filter(item => arr2.includes(item)).length;
+    if (correctElements > 0) {
+      return 'bg-warning'; // Certains éléments sont corrects
+    }
+
+    return 'bg-danger'; // Aucun élément n'est correct
+  }
+
+  // Méthode pour vérifier si les deux listes sont identiques
+  areListsEqual(arr1: string[], arr2: string[]): boolean {
+    if (arr1.length !== arr2.length) {
+      return false; // Si les longueurs diffèrent, les tableaux ne sont pas égaux
+    }
+
+    for (let i = 0; i < arr1.length; i++) {
+      if (arr1[i] !== arr2[i]) {
+        return false; // Si un élément ne correspond pas, les tableaux ne sont pas égaux
+      }
+    }
+
+    return true; // Les tableaux sont égaux
+  }
+
 }
 

@@ -1,6 +1,6 @@
 <div class="container pt-5">
   <div class="d-flex align-items-center justify-content-center flex-column g-5">
-    <h1>Choisir un Océan ou une Mer</h1>
+    <h1>Bienvenue sur Oceandle</h1>
 
     <!-- Champ de recherche avec datalist -->
     <label for="ocean-choice">Choisir un océan ou une mer:</label>
@@ -35,13 +35,29 @@
         @for (ocean of selectedOceans; track ocean) {
           <tr>
 
-            <td [ngClass]="selectedOcean === this.randomOceanOrSea ? 'bg-success' : 'bg-danger'">{{ ocean.nom }}</td>
-            <td>{{ ocean.type }}</td>
-            
-            <td>{{ ocean.profondeur_max }}</td>
-            <td>{{ ocean.etendue }}</td>
-            <td>{{ ocean.continents }}</td>
-
+            <td [ngClass]="ocean.nom === this.randomOceanOrSea?.nom ? 'bg-success' : 'bg-danger'">{{ ocean.nom }}</td>
+            <td [ngClass]="ocean.type === this.randomOceanOrSea?.type ? 'bg-success' : 'bg-danger'">{{ ocean.type }}</td>
+            @if (ocean.profondeur_max > this.randomOceanOrSea!.profondeur_max){
+              <td class="bg-danger">{{ ocean.profondeur_max }}<i class=" 	fas fa-arrow-alt-circle-down"></i></td>
+            }
+            @else if (ocean.profondeur_max < this.randomOceanOrSea!.profondeur_max){
+              <td class="bg-danger">{{ ocean.profondeur_max }}<i class="fas fa-arrow-alt-circle-up"></i></td>
+            }
+            @else {
+              <td class="bg-success">{{ ocean.profondeur_max }}</td>
+            }
+            @if (ocean.etendue > this.randomOceanOrSea!.etendue){
+              <td class="bg-danger">{{ ocean.etendue }}<i class=" 	fas fa-arrow-alt-circle-down"></i></td>
+            }
+            @else if (ocean.etendue < this.randomOceanOrSea!.etendue){
+              <td class="bg-danger">{{ ocean.etendue }}<i class="fas fa-arrow-alt-circle-up"></i></td>
+            }
+            @else {
+              <td class="bg-success">{{ ocean.etendue }}</td>
+            }
+            <td [ngClass]="getBackgroundClass(ocean.continents, this.randomOceanOrSea!.continents)">
+              {{ ocean.continents }}
+            </td>
           </tr>
         }
       </tbody>
