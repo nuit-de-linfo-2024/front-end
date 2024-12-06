@@ -58,7 +58,7 @@ export class CaptchaComponent  {
       this.addOceanToList()
 
       if (this.selectedOcean === this.randomOceanOrSea?.nom) {
-        this.router.navigate(['home']).then(() => this.toasterService.success("tu as trouvé"));
+        this.router.navigate(['home']).then(() => this.toasterService.success("Tu as réussi le captcha"));
         return
       }
   }
