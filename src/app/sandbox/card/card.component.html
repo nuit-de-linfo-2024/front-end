@@ -2,15 +2,25 @@
 <div class="flip-card" [class.flipped]="isFlipped">
   <div class="flip-card-inner mx-1">
     <div class="flip-card-front">
-      <p class="fw-bold fs-4">{{ mockData?.title }}</p>
-      @for (option of mockData?.options; track option) {
-        <button class="button-front mt-5 mx-5" (click)="changeFlipState()">{{ option }}</button>
+      <p class="fw-bold fs-4">{{ mockData?.title }}</p> 
+      <p> {{ mockData?.description}}</p>
+      @for(question of mockData?.questions; track question){
+        @if(question.difficulty === selectedDifficulty){
+          <p>{{question.title}}</p>
+          @for(option of question.options; track option){
+            <button class="button-front mt-5 mx-4" (click)="changeFlipState()">{{ option }}</button>
+          }
+          <div class="flip-card-back fw-bold fs-4">
+            @for(question of mockData!.questions; track question.title){
+              <p>{{ question.answer }}</p>
+            }
+            <button class="button-back mt-5"(click)="changeFlipState()">Flip again</button>
+          </div>
+        }
+  
+    
       }
-    </div>
-    <div class="flip-card-back fw-bold fs-4">
-      <p>{{ mockData?.answer }}</p>
-      <button class="button-back mt-5"(click)="changeFlipState()">Flip again</button>
-    </div>
+      
   </div>
-</div>
+
 
