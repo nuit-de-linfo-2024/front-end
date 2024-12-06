@@ -16,20 +16,12 @@ export const routes: Routes = [
   },
   {
     path: 'home',
-    component: HomeComponent,
+    component: ScrollComponent
   },
   {
     path: "podcasts",
     component: PodcastsComponent,
     canActivate: [capchatGuard]
-  },
-  {
-    path: 'sandbox',
-    component: SandboxComponent
-  },
-  {
-    path: "scroll",
-    component: ScrollComponent
   },
   {
     path: 'ergonomique',

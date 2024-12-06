@@ -1,8 +1,11 @@
 import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
-import { CardDto } from '../../models/card.dto';
+import {CardDto, Question} from '../../models/card.dto';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import cardData from './cards_data.json';
 import { SandboxComponent } from '../sandbox.component';
+import {QuestionScore} from '../../models/question-score.dto';
+import {ScoreService} from '../../services/score.service';
+import {ToastrService} from 'ngx-toastr';
 
 @Component({
   selector: 'app-card-test',

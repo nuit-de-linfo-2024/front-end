@@ -5,6 +5,7 @@ import mockData from "../../sandbox/card/cards_data.json";
 import {CardComponent} from "../../sandbox/card/card.component";
 import {FormsModule} from "@angular/forms";
 import cardData from "../../sandbox/card/cards_data.json";
+import {ScoreService} from "../../services/score.service";
 
 export class ZoomState{
   x_pos_percent: number = 0;
@@ -75,6 +76,17 @@ export class ScrollComponent{
 
   protected begin: boolean = true;
   current_mock = mockData[0];
+
+  totalScore: number = 0;
+
+  constructor(private scoreService: ScoreService) {}
+
+  ngOnInit(): void {
+    this.scoreService.clearScores();
+    this.scoreService.totalScore$.subscribe(score => {
+      this.totalScore = score;
+    });
+  }
 
   onDifficultyChange(difficulty: string){
     this.selectedDifficulty = difficulty;

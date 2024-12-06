@@ -1,13 +1,36 @@
 <div class="container-fluid">
+    <div class="row">
+        <div class="col d-flex justify-content-between align-items-center">
+            <div>
+                <label class="mx-1 my-1 fs-3 fw-bold" for="difficulty">Choisir la difficulté: </label>
+                <select class="mx-2 bg-light rounded border-0 px-4 fz-2" id="difficulty" [(ngModel)]="selectedDifficulty" (change)="onDifficultyChange(selectedDifficulty)">
+                    <option value="easy">Facile</option>
+                    <option value="medium">Moyen</option>
+                    <option value="hard">Difficile</option>
+                </select>
+            </div>
+            <div class="bg-white border rounded p-2 shadow d-flex align-items-center mt-3">
+                <!-- Médailles -->
+                <div class="me-2">
+                    @if (totalScore > 15) {
+                        <img width="32" height="32" src="gold_medal.png"/>
+                    }
+                    @else if (totalScore > 10) {
+                        <img width="32" height="32" src="ilver_medal.png"/>
+                    }
+                    @else if (totalScore > 5) {
+                        <img width="32" height="32" src="bronze_medal.png"/>
+                    }
+                </div>
+                <!-- Points -->
+                <div>
+                    <p class="mb-0">{{ totalScore }} {{ totalScore == 1 ? "point" : "points"}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
   <div class="row">
     <div class="col-sm">
-        <label class="mx-5 my-4 fs-2 fw-bold  text-white" for="difficulty">Choisir la difficulté: </label>
-        <select class="mx-2 bg-light rounded border-0 px-4 fs-3" id="difficulty" [(ngModel)]="selectedDifficulty"
-                (change)="onDifficultyChange(selectedDifficulty)">
-            <option value="easy">Facile</option>
-            <option value="medium">Moyen</option>
-            <option value="hard">Difficile</option>
-        </select>
 
         <div>
             @if (begin) {
