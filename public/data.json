@@ -103,5 +103,131 @@
     "profondeur_max": 3372.0,
     "etendue": 1600000.0,
     "continents": ["Asie"]
+  },
+  {
+    "nom": "Lac Baïkal",
+    "type": "Lac",
+    "profondeur_max": 1642.0,
+    "etendue": 31500.0,
+    "continents": ["Asie"]
+  },
+  {
+    "nom": "Lac Supérieur",
+    "type": "Lac",
+    "profondeur_max": 406.0,
+    "etendue": 82100.0,
+    "continents": ["Amérique du Nord"]
+  },
+  {
+    "nom": "Lac Victoria",
+    "type": "Lac",
+    "profondeur_max": 83.0,
+    "etendue": 68870.0,
+    "continents": ["Afrique"]
+  },
+  {
+    "nom": "Lac Huron",
+    "type": "Lac",
+    "profondeur_max": 229.0,
+    "etendue": 59500.0,
+    "continents": ["Amérique du Nord"]
+  },
+  {
+    "nom": "Lac Michigan",
+    "type": "Lac",
+    "profondeur_max": 281.0,
+    "etendue": 58000.0,
+    "continents": ["Amérique du Nord"]
+  },
+  {
+    "nom": "Lac Tanganyika",
+    "type": "Lac",
+    "profondeur_max": 1470.0,
+    "etendue": 32893.0,
+    "continents": ["Afrique"]
+  },
+  {
+    "nom": "Lac Maracaibo",
+    "type": "Lac",
+    "profondeur_max": 100.0,
+    "etendue": 13000.0,
+    "continents": ["Amérique du Sud"]
+  },
+  {
+    "nom": "Lac de Garde",
+    "type": "Lac",
+    "profondeur_max": 346.0,
+    "etendue": 370.0,
+    "continents": ["Europe"]
+  },
+  {
+    "nom": "Lac Érié",
+    "type": "Lac",
+    "profondeur_max": 64.0,
+    "etendue": 25700.0,
+    "continents": ["Amérique du Nord"]
+  },
+  {
+    "nom": "Lac Titicaca",
+    "type": "Lac",
+    "profondeur_max": 284.0,
+    "etendue": 8560.0,
+    "continents": ["Amérique du Sud"]
+  },
+  {
+    "nom": "Lac Ouest",
+    "type": "Lac",
+    "profondeur_max": 160.0,
+    "etendue": 1200.0,
+    "continents": ["Afrique"]
+  },
+  {
+    "nom": "Rivière Amazone",
+    "type": "Rivière",
+    "profondeur_max": 24.0,
+    "etendue": 7050000.0,
+    "continents": ["Amérique du Sud"]
+  },
+  {
+    "nom": "Rivière Nil",
+    "type": "Rivière",
+    "profondeur_max": 8.0,
+    "etendue": 6650.0,
+    "continents": ["Afrique"]
+  },
+  {
+    "nom": "Rivière Yangtsé",
+    "type": "Rivière",
+    "profondeur_max": 10.0,
+    "etendue": 6300.0,
+    "continents": ["Asie"]
+  },
+  {
+    "nom": "Rivière Mississippi",
+    "type": "Rivière",
+    "profondeur_max": 30.0,
+    "etendue": 3770.0,
+    "continents": ["Amérique du Nord"]
+  },
+  {
+    "nom": "Rivière Mékong",
+    "type": "Rivière",
+    "profondeur_max": 10.0,
+    "etendue": 4350.0,
+    "continents": ["Asie"]
+  },
+  {
+    "nom": "Rivière Gange",
+    "type": "Rivière",
+    "profondeur_max": 15.0,
+    "etendue": 2525.0,
+    "continents": ["Asie"]
+  },
+  {
+    "nom": "Rivière Colorado",
+    "type": "Rivière",
+    "profondeur_max": 35.0,
+    "etendue": 2330.0,
+    "continents": ["Amérique du Nord"]
   }
 ]
