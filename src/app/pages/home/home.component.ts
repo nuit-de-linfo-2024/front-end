@@ -1,9 +1,8 @@
-import {Component, ElementRef, ViewChild} from '@angular/core';
-import { CaptchaComponent } from "../captcha/captcha.component";
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-home',
-  imports: [CaptchaComponent],
+  imports: [],
   templateUrl: './home.component.html',
   standalone: true,
   styleUrl: './home.component.scss'

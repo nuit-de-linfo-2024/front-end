@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import { CaptchaService } from './captcha.service'
 import {CaptchaDTO} from './captcha.dto'
@@ -16,7 +16,7 @@ import {NgClass} from '@angular/common';
   standalone: true,
   styleUrl: './captcha.component.scss'
 })
-export class CaptchaComponent  {
+export class CaptchaComponent implements OnInit{
 
   oceansAndSeas: CaptchaDTO[] = [];
   filteredOceans: CaptchaDTO[] = [];
@@ -26,7 +26,6 @@ export class CaptchaComponent  {
   constructor(private captchaService: CaptchaService, private toasterService: ToastrService, private router: Router) { }
 
   ngOnInit(): void {
-
     this.captchaService.getOceansAndSeas().subscribe(data => {
       this.oceansAndSeas = data;
       this.filteredOceans = [...this.oceansAndSeas];
@@ -58,7 +57,8 @@ export class CaptchaComponent  {
       this.addOceanToList()
 
       if (this.selectedOcean === this.randomOceanOrSea?.nom) {
-        this.router.navigate(['home']).then(() => this.toasterService.success("Tu as réussi le captcha"));
+        localStorage.setItem('capchatValidated', 'true');
+        this.router.navigate(['podcasts']).then(() => this.toasterService.success("Tu as réussi le captcha"));
         return
       }
   }
