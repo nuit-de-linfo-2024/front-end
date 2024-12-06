@@ -1,19 +1,19 @@
 
 <div class="flip-card" [class.flipped]="isFlipped">
-  <div class="flip-card-inner mx-1">
-    <div class="flip-card-front">
-      <p class="fw-bold fs-3">{{ mockData?.title }}</p> 
-      <p class="fs-5"> {{ mockData?.description}}</p>
+  <div class="flip-card-inner mx-0">
+    <div class="flip-card-front text-white"  style="background-image: url('{{mockData?.image}}')">
+      <p class="fw-bold fs-1">{{ mockData?.title }}</p> 
+      <p class="fs-4"> {{ mockData?.description}}</p>
       @for(question of mockData?.questions; track question){
         @if(question.difficulty === selectedDifficulty){
-          <p class="fs-4">{{question.title}}</p>
+          <p class="fs-4 fw-bold">{{question.title}}</p>
           @for(option of question.options; track option){
             <button class="button-front mt-4 mx-3" (click)="changeFlipState()">{{ option }}</button>
           }
         }    
       }
     </div>
-    <div class="flip-card-back fw-bold fs-4">
+    <div class="flip-card-back fw-bold fs-4" style="background-image: url('{{mockData?.image}}')">
       @for(question of mockData?.questions; track question){
         @if(question.difficulty === selectedDifficulty){
           <p class="fs-1">La réponse était : {{ question.answer }}</p>

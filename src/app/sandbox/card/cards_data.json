@@ -1,6 +1,7 @@
 [
    {
       "title": "L'océan le poumon de la terre",
+      "image": "pexels-matthardy-3560168.jpg",
       "description": "L'océan est souvent appelé le poumon de la terre en raison de sa capacité à produire de l'oxygène.",
       "questions": [
          {
@@ -43,6 +44,7 @@
    },
    {
       "title": "L'acidification, poison pour les muscles et les océans",
+      "image":"plongée.jpg",
       "description": "blabla this is not a good one, thanks Louis :)",
       "questions": [
          {
@@ -85,6 +87,7 @@
    },
    {
       "title": "Les abysses, notre cœur écologique",
+      "image":"abysses.jpg",
       "description": "Les abysses peuvent être comparées à un cœur écologique des océans. Tout comme le cœur pompe le sang et joue un rôle central dans la santé globale du corps humain, les abysses jouent un rôle central dans la régulation du climat et du carbone dans l'océan.",
       "questions": [
          {
@@ -127,6 +130,7 @@
    },
    {
       "title": "Le Foie de notre planète : Zones Humides, Estuaires et Mangroves, les Détoxifiants des Océans",
+      "image":"mangrove.jpg",
       "description": "Les zones humides (mangroves, marais salants, estuaires) jouent un rôle clé en filtrant les polluants, les sédiments et les nutriments excédentaires dans l'eau, en nettoyant l'eau avant qu'elle n'atteigne les océans ouverts.",
       "questions": [
          {
@@ -169,6 +173,7 @@
    },
    {
       "title": "Les Veines de l'Océan : Les Courants Marins",
+      "image":"vague.jpg",
       "description": "Les courants océaniques transportent des nutriments et régulent la température, tout comme le système circulatoire dans le corps humain.",
       "questions": [
          {
@@ -211,6 +216,7 @@
    },
    {
       "title": "Les Estomacs de l'Océan",
+      "image":"poisson.jpg",
       "description": "Les zones de convergence, où les déchets s'accumulent, peuvent être comparées au système digestif humain qui traite les déchets.",
       "questions": [
          {
