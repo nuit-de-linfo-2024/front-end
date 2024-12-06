@@ -1,0 +1,70 @@
+<div class="container pt-5">
+  <div class="d-flex align-items-center justify-content-center flex-column g-5">
+    <h1>Bienvenue sur Waterdle</h1>
+
+    <!-- Champ de recherche avec datalist -->
+    <h5>Choisir un océan, une mer, un lac ou rivière :</h5>
+  
+    <div class="input-group mb-3 justify-content-center">
+      <input
+      list="oceans-and-seas"
+      placeholder="Réponse"
+      [(ngModel)]="selectedOcean"
+    />
+      <button class="btn btn-secondary" type="button" id="button-addon2"(click)="VerifOcean()">Valider</button>
+    </div>
+    
+
+    <datalist id="oceans-and-seas">
+      @for (ocean of filteredOceans; track ocean) {
+        <option [value]="ocean.nom">{{ ocean.nom }}</option>
+      }
+
+    </datalist>
+
+
+    <table border="1" style="border-collapse: collapse; width: 100%;">
+      <thead align="center">
+      <tr>
+        <th>Nom</th>
+        <th>Type</th>
+        <th>Profondeur max</th>
+        <th>Étendue (km²)</th>
+        <th>Continent(s)</th>
+      </tr>
+      </thead>
+      <tbody>
+        @for (ocean of selectedOceans; track ocean) {
+          <tr>
+
+            <td [ngClass]="ocean.nom === this.randomOceanOrSea?.nom ? 'bg-success' : 'bg-danger'">{{ ocean.nom }}</td>
+            <td [ngClass]="ocean.type === this.randomOceanOrSea?.type ? 'bg-success' : 'bg-danger'">{{ ocean.type }}</td>
+            @if (ocean.profondeur_max > this.randomOceanOrSea!.profondeur_max){
+              <td class="bg-danger">{{ ocean.profondeur_max }}<i class=" 	fas fa-arrow-alt-circle-down"></i></td>
+            }
+            @else if (ocean.profondeur_max < this.randomOceanOrSea!.profondeur_max){
+              <td class="bg-danger">{{ ocean.profondeur_max }}<i class="fas fa-arrow-alt-circle-up"></i></td>
+            }
+            @else {
+              <td class="bg-success">{{ ocean.profondeur_max }}</td>
+            }
+            @if (ocean.etendue > this.randomOceanOrSea!.etendue){
+              <td class="bg-danger">{{ ocean.etendue }}<i class=" 	fas fa-arrow-alt-circle-down"></i></td>
+            }
+            @else if (ocean.etendue < this.randomOceanOrSea!.etendue){
+              <td class="bg-danger">{{ ocean.etendue }}<i class="fas fa-arrow-alt-circle-up"></i></td>
+            }
+            @else {
+              <td class="bg-success">{{ ocean.etendue }}</td>
+            }
+            <td [ngClass]="getBackgroundClass(ocean.continents, this.randomOceanOrSea!.continents)">
+              @for (cont of ocean.continents; track cont){
+              {{ cont }}
+              }
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

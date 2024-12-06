@@ -2,17 +2,17 @@
   "podcasts": [
     {
       "id": 1,
-      "title": "Todo",
+      "title": "Podcast avec Florian",
       "description": "Description à faire",
-      "duration": 123,
-      "audioFile": "fichier.mp3 (le fichier et à mettre dans public/)"
+      "duration": 1401,
+      "audioFile": "podcast_florian.mp3"
     },
     {
       "id": 2,
-      "title": "Todo 2",
+      "title": "Podcast avec Frédéric",
       "description": "Description aussi à faire",
-      "duration": 123,
-      "audioFile": "fichier.mp3 (le fichier et à mettre dans public/)"
+      "duration": 1818,
+      "audioFile": "podcast_frederic.mp3"
     }
   ]
 }

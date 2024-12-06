@@ -1,5 +1,16 @@
-@for (mock of mockData; track mock.title){
-    <div >
-      <app-card-test [mockData]="mock"></app-card-test>
-    </div>
-  }
+<div class="container sandbox">
+
+    <label class="mx-5 my-4 fs-2 fw-bold  text-white" for="difficulty">Choisir la difficulté: </label>
+    <select class="mx-2 bg-light rounded border-0 px-4 fs-3" id="difficulty" [(ngModel)]="selectedDifficulty"
+            (change)="onDifficultyChange(selectedDifficulty)">
+      <option value="easy">Facile</option>
+      <option value="medium">Moyen</option>
+      <option value="hard">Difficile</option>
+    </select>
+    @for (mock of mockData; track mock.title) {
+      <div>
+        <app-card-test [mockData]="mock" [selectedDifficulty]="selectedDifficulty"></app-card-test>
+      </div>
+    }
+  </div>
+
