@@ -1,0 +1,11 @@
+.scroll_container {
+  overflow: hidden;
+  display: inline-block;
+}
+
+#img_scroll {
+  transform-origin: 0 0;
+  object-position: 0 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
