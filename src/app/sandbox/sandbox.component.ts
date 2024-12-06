@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {CardDto} from '../models/card.dto';
 import { CardComponent } from './card/card.component';
 import cardData from './card/cards_data.json';
 import { FormsModule } from '@angular/forms';
+import { ScoreService } from '../services/score.service';
 
 @Component({
   selector: 'app-sandbox',
@@ -15,7 +15,15 @@ export class SandboxComponent{
    selectedDifficulty: string='easy';
    mockData = cardData;
 
+  totalScore: number = 0;
 
+  constructor(private scoreService: ScoreService) {}
+
+  ngOnInit(): void {
+      this.scoreService.totalScore$.subscribe(score => {
+          this.totalScore = score;
+      });
+  }
 
   onDifficultyChange(difficulty: string){
     this.selectedDifficulty = difficulty;

@@ -1,11 +1,42 @@
-<label class="mx-1 my-1 fs-3 fw-bold " for="difficulty">Choisir la difficulté: </label>
-    <select class="mx-2 bg-light rounded border-0 px-4 fz-2" id="difficulty" [(ngModel)]="selectedDifficulty" (change)="onDifficultyChange(selectedDifficulty)">
-        <option value="easy">Facile</option>
-        <option value="medium">Moyen</option>
-        <option value="hard">Difficile</option>
-    </select>  
-@for (mock of mockData; track mock){
-    <div >
-      <app-card-test [mockData]="mock" [selectedDifficulty]="selectedDifficulty"></app-card-test>
-    </div>
-  }
+<div class="container-fluid">
+  <div class="row">
+      <div class="col d-flex justify-content-between align-items-center">
+          <div>
+              <label class="mx-1 my-1 fs-3 fw-bold" for="difficulty">Choisir la difficulté: </label>
+              <select class="mx-2 bg-light rounded border-0 px-4 fz-2" id="difficulty" [(ngModel)]="selectedDifficulty" (change)="onDifficultyChange(selectedDifficulty)">
+                  <option value="easy">Facile</option>
+                  <option value="medium">Moyen</option>
+                  <option value="hard">Difficile</option>
+              </select>
+          </div>
+          <div class="bg-white border rounded p-2 shadow d-flex align-items-center">
+            <!-- Médailles -->
+              <div class="me-2">
+                  @if (totalScore > 15) {
+                      <img width="32" height="32" src="medals/gold_medal.png"/>
+                  }
+                  @else if (totalScore > 10) {
+                      <img width="32" height="32" src="medals/silver_medal.png"/>
+                  }
+                  @else if (totalScore > 5) {
+                      <img width="32" height="32" src="medals/bronze_medal.png"/>
+                  }
+              </div>
+              <!-- Points -->
+              <div>
+                  <p class="mb-0">{{ totalScore }} {{ totalScore == 1 ? "point" : "points"}}</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col">
+          @for (mock of mockData; track mock) {
+              <div>
+                  <app-card-test [mockData]="mock" [selectedDifficulty]="selectedDifficulty"></app-card-test>
+              </div>
+          }
+      </div>
+  </div>
+</div>
+        
