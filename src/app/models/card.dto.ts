@@ -1,5 +1,6 @@
 export interface CardDto{
     title: string;
+    image: string;
     description: string;
     questions: Question[];
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {CardDto} from '../models/card.dto';
 import { CardComponent } from './card/card.component';
 import cardData from './card/cards_data.json';

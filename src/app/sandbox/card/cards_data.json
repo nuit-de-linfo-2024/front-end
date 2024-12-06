@@ -1,6 +1,7 @@
 [
    {
       "title": "L'océan le poumon de la terre",
+      "image": "pexels-matthardy-3560168.jpg",
       "description": "L'océan est souvent appelé le poumon de la terre en raison de sa capacité à produire de l'oxygène.",
       "questions": [
          {
@@ -43,21 +44,9 @@
    },
    {
       "title": "L'acidification, poison pour les muscles et les océans",
-
+      "image":"plongée.jpg",
       "description": "blabla this is not a good one, thanks Louis :)",
       "questions": [
-         {
-            "title": "Quel gaz est responsable de l'acidification des océans ?",
-            "options": [
-               "Dioxyde de carbone",
-               "Méthane",
-               "Ozone",
-               "Protoxyde d'azote"
-            ],
-            "answer": "Dioxyde de carbone",
-            "explanation": "Le dioxyde de carbone est responsable de l'acidification des océans. En effet, une partie du CO2 émis par les activités humaines est absorbée par les océans et réagit avec l'eau pour former de l'acide carbonique.",
-            "difficulty": "easy"
-         },
          {
             "title": "Qu'est-ce que l'acidification des océans ?",
             "options": [
@@ -83,18 +72,6 @@
             "difficulty": "medium"
          },
          {
-            "title": "Quel pourcentage du CO2 émis par les activités humaines est absorbé par les océans ?",
-            "options": [
-               "10%",
-               "20%",
-               "30%",
-               "45%"
-            ],
-            "answer": "30%",
-            "explanation": "Environ 30% du CO2 émis par les activités humaines est absorbé par les océans. Cela a pour conséquence d'augmenter l'acidité de l'eau de mer, ce qui peut avoir des effets néfastes sur de nombreux organismes marins.",
-            "difficulty": "medium"
-         },
-         {
             "title": "Quel est l'évolution du pH de l'eau de mer depuis le début de l'ère industrielle ?",
             "options": [
                "Il a diminué de 0,5 unité de pH",
@@ -110,6 +87,7 @@
    },
    {
       "title": "Les abysses, notre cœur écologique",
+      "image":"abysses.jpg",
       "description": "Les abysses peuvent être comparées à un cœur écologique des océans. Tout comme le cœur pompe le sang et joue un rôle central dans la santé globale du corps humain, les abysses jouent un rôle central dans la régulation du climat et du carbone dans l'océan.",
       "questions": [
          {
@@ -152,6 +130,7 @@
    },
    {
       "title": "Le Foie de notre planète : Zones Humides, Estuaires et Mangroves, les Détoxifiants des Océans",
+      "image":"mangrove.jpg",
       "description": "Les zones humides (mangroves, marais salants, estuaires) jouent un rôle clé en filtrant les polluants, les sédiments et les nutriments excédentaires dans l'eau, en nettoyant l'eau avant qu'elle n'atteigne les océans ouverts.",
       "questions": [
          {
@@ -194,6 +173,7 @@
    },
    {
       "title": "Les Veines de l'Océan : Les Courants Marins",
+      "image":"vague.jpg",
       "description": "Les courants océaniques transportent des nutriments et régulent la température, tout comme le système circulatoire dans le corps humain.",
       "questions": [
          {
@@ -206,18 +186,6 @@
             ],
             "answer": "Courant du Golfe",
             "explanation": "Le Courant du Golfe est le plus grand courant océanique du monde. Il transporte de l'eau chaude des tropiques vers les régions polaires, influençant le climat des régions côtières.",
-            "difficulty": "easy"
-         },
-         {
-            "title": "Quel phénomène est associé aux courants océaniques et influence le climat mondial ?",
-            "options": [
-               "El Niño",
-               "La Niña",
-               "Les deux",
-               "Aucun des deux"
-            ],
-            "answer": "Les deux",
-            "explanation": "Les phénomènes El Niño et La Niña sont associés aux courants océaniques et ont un impact sur le climat mondial.",
             "difficulty": "easy"
          },
          {
@@ -248,20 +216,9 @@
    },
    {
       "title": "Les Estomacs de l'Océan",
+      "image":"poisson.jpg",
       "description": "Les zones de convergence, où les déchets s'accumulent, peuvent être comparées au système digestif humain qui traite les déchets.",
       "questions": [
-         {
-            "title": "Quelle est la plus grande zone de convergence de déchets dans l'océan Pacifique ?",
-            "options": [
-               "Grande zone d'accumulation de déchets du Pacifique Nord",
-               "Grande zone d'accumulation de déchets du Pacifique Sud",
-               "Grande zone d'accumulation de déchets de l'Atlantique Nord",
-               "Grande zone d'accumulation de déchets de l'Atlantique Sud"
-            ],
-            "answer": "Grande zone d'accumulation de déchets du Pacifique Nord",
-            "explanation": "Cette zone, également connue sous le nom de \"Great Pacific Garbage Patch\", est la plus grande accumulation de déchets plastiques dans l'océan Pacifique.",
-            "difficulty": "easy"
-         },
          {
             "title": "Quel type de déchet est le plus courant dans les zones de convergence océaniques ?",
             "options": [
@@ -275,18 +232,6 @@
             "difficulty": "easy"
          },
          {
-            "title": "Quel est l'impact des microplastiques sur la faune marine ?",
-            "options": [
-               "Réduction de la fertilité des organismes marins",
-               "Intégration dans les tissus des organismes marins et transmission à travers la chaîne alimentaire",
-               "Altération des comportements de reproduction",
-               "Diminution de la capacité de chasse et de prédation"
-            ],
-            "answer": "Intégration dans les tissus des organismes marins et transmission à travers la chaîne alimentaire",
-            "explanation": "Les microplastiques sont souvent ingérés par la faune marine, s'accumulant dans la chaîne alimentaire et affectant la santé des organismes marins.",
-            "difficulty": "medium"
-         },
-         {
             "title": "Quel est le principal facteur contribuant à la formation des zones de convergence de déchets ?",
             "options": [
                "Les courants océaniques",
@@ -297,18 +242,6 @@
             "answer": "Les courants océaniques",
             "explanation": "Les courants océaniques transportent et concentrent les déchets dans des zones spécifiques, formant ainsi des zones de convergence.",
             "difficulty": "medium"
-         },
-         {
-            "title": "Quelle est la superficie de la Grande zone d'accumulation de déchets du Pacifique Nord ?",
-            "options": [
-               "1 million de km²",
-               "3 millions de km²",
-               "5 millions de km²",
-               "7 millions de km²"
-            ],
-            "answer": "3 millions de km²",
-            "explanation": "La Grande zone d'accumulation de déchets du Pacifique Nord est estimée à environ 3 millions de km². Elle contient une grande quantité de déchets plastiques et constitue un danger pour la faune marine.",
-            "difficulty": "hard"
          },
          {
             "title":"Quel est le processus de dégradation des plastiques dans l'océan ?",
