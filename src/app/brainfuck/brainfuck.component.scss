@@ -1,0 +1,54 @@
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.code-display {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.code-char {
+  width: 30px;
+  height: 40px;
+  margin: 0 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+}
+
+.buttons-container {
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  margin-top: 20px;
+  overflow: hidden; /* Empêche les boutons de sortir */
+}
+
+.code-button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid orange;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.code-button:hover {
+  transform: scale(1.2);
+}
+
+.success-msg {
+  color: green;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}

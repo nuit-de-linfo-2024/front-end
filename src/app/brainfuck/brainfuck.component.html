@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>Reconstituez le code :</h1>
+  <div class="code-display">
+    <span *ngFor="let char of userCode" class="code-char">{{ char || '_' }}</span>
+  </div>
+
+  <div class="buttons-container">
+    <button
+      *ngFor="let btn of buttons; let i = index"
+      class="code-button"
+      [style.left.px]="positions[i].x"
+      [style.top.px]="positions[i].y"
+      (click)="onButtonClick(btn, i)"
+    >
+      {{ btn }}
+    </button>
+  </div>
+
+  <p *ngIf="success" class="success-msg">Bravo, code correct !</p>
+</div>

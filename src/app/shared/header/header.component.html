@@ -1,31 +1,16 @@
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        Nuit de l'info
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-              aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-           aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">LinkedIn</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                  aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-
-
-          </ul>
-
-
-        </div>
-      </div>
+<header class="neon-header">
+  <div class="container">
+    <div class="logo d-flex">
+      <img width="50px"  class="me-1" src="https://images.emojiterra.com/google/android-11/512px/1f986.png" alt="logo" />
+      <h1>Nuit de l'Info</h1>
     </div>
-  </nav>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#" class="neon-link" [routerLink]="['/home']">Home</a></li>
+        <li><a href="#" class="neon-link" [routerLink]="['/podcasts']">Nos Podcasts</a></li>
+        <li><a href="#" class="neon-link" [routerLink]="['/sandbox']">Sandbox</a></li>
+        <li><a href="#" class="neon-link">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>

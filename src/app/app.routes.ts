@@ -15,8 +15,9 @@ export const routes: Routes = [
     component: HomeComponent,
   },
   {
-    path: "podcast",
-    component: PodcastsComponent
+    path: "podcasts",
+    component: PodcastsComponent,
+    canActivate: ['capchatGuard']
   },
   {
     path: 'sandbox',
